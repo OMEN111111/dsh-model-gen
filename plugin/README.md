@@ -34,7 +34,7 @@ dsh plugin --profile desktop add "https://github.com/OMEN111111/dsh-model-gen.gi
 dsh plugin --profile desktop add "."
 
 # 或从打包文件安装
-dsh plugin --profile desktop add ".\dist\dsh-model-gen-0.2.0.tgz"
+dsh plugin --profile desktop add ".\dist\dsh-model-gen-0.2.1.tgz"
 ```
 
 安装完成后从托盘完整退出并重新打开 DSH。插件只把行插入 profile 的 bundle 列表；设置与凭据在插件自己的页面管理。
@@ -152,7 +152,7 @@ https://<你的 DSH 公网地址>/plugins/dsh-model-gen/webhook/tripo-official
 - 未使用真实 Tripo / Meshy / Hyper3D / 腾讯云 key 做付费联调；正式上线前需要用户提供低额度 key 做一次最小任务。
 - 第三方混元3D 的具体协议未提供样例；当前覆盖 DashScope 兼容路径。
 - `model-viewer` 依赖 WebGL；无 WebGL 的环境会降级为下载。
-- DSH 0.2.x 插件 API 可能变化；本版本声明兼容 `>=0.2.2-rc.3 <0.3.0`，当前基线为 0.2.2-rc.3。
+- DSH 0.2.x 插件 API 可能变化；本版本声明兼容 `>=0.2.2-rc.5 <0.3.0`，当前基线为 0.2.2-rc.5。
 
 ## 第三方资源
 

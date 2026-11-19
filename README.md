@@ -38,7 +38,7 @@ dsh plugin --profile desktop remove dsh-tripo-support
 dsh plugin --profile desktop add "https://github.com/OMEN111111/dsh-model-gen.git"
 ```
 
-或使用 Release 中的 `dsh-model-gen-0.2.0.tgz`。
+或使用 Release 中的 `dsh-model-gen-0.2.1.tgz`。
 
 安装后完整退出并重新打开 DSH。
 

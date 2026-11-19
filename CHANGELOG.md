@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.2.1 — 2026-11-19
+
+### Changed
+
+- 适配 DeepSeek Harness **0.2.2-rc.5**：`engines.dsh` 更新为 `>=0.2.2-rc.5 <0.3.0`。
+- 按 rc.5 运行环境重新验证设置页、3D 胶囊、3D 工坊、模型预览和更新检查。
+- 版本号提升到 **0.2.1**。
+
+### Verification
+
+- 在 DSH 0.2.2-rc.5 隔离 profile 中安装 `dsh-model-gen-0.2.1.tgz`，`/plugins/dsh-model-gen/status` 和旧路由兼容别名均返回 200。
+- `3D 工坊` 页签、9 个历史模型卡片缩略图加载、费用预估显示正常。
+- `node tests/protocols-smoke.mjs`：52 项通过。
+
 ## 0.2.0 — 2026-11-14
 
 ### Changed
